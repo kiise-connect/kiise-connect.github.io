@@ -106,9 +106,6 @@ python3 -m http.server -d profiles-web 8765  # http://localhost:8765
 - Settings → General → Features 에서 **Issues 끄기** (등록은 메일로만 받습니다)
 - 쓰기 권한은 담당자에게만
 
-### 운영 전에 남은 일
-- [ ] 등록 대상 기준 확정 (신진연구자 중심 — 위원회 의결)
-
 ## 폴더
 
 ```
