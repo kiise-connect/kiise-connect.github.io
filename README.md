@@ -98,6 +98,9 @@ python3 -m http.server -d profiles-web 8765  # http://localhost:8765
 ## 6. 저장소 설정 (처음 한 번)
 
 - Settings → Pages → Source: **GitHub Actions**
+- Settings → Actions → General → Actions permissions: **Allow all actions** (조직 설정에서 막혀 있으면 조직에서 허용).
+  Actions 를 켜기 전에 올린 커밋으로는 실행되지 않으니, 켠 뒤 커밋이 한 번 더 있어야 Actions 탭에 워크플로가 나타납니다.
+  Workflow permissions 는 읽기 전용(기본값)이어도 됩니다. 필요한 권한은 `deploy.yml` 에 적혀 있습니다.
 - Settings → Rules → Rulesets → `main`: *Restrict deletions*, *Block force pushes* 만 켭니다.
   **PR 필수·상태 체크 필수는 켜지 마세요.** 업로드와 Actions 의 반영 커밋이 `main` 에 바로 들어가야 합니다.
 - Settings → General → Features 에서 **Issues 끄기** (등록은 메일로만 받습니다)
