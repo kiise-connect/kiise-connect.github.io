@@ -1,0 +1,9 @@
+# OS / 편집기
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 로컬 설정 · 캐시
+.claude/
+__pycache__/
