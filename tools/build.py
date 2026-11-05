@@ -18,6 +18,10 @@
   python3 tools/build.py check [--strict]
       필수 항목, id 중복·형식, 키워드·논문·과제·연구 내용 개수, 인사말 길이, 소사이어티 표기,
       사진·그림 파일, 등록 양식 최신 여부를 점검합니다. --strict 면 문제가 있을 때 종료 코드 1.
+
+  python3 tools/build.py site 폴더
+      배포할 사이트를 새 폴더에 만듭니다. profiles-web 을 복사하되 비공개 프로필은 데이터와 사진·그림을 뺍니다.
+      (비공개 프로필이 배포된 파일로 새어 나가지 않도록. GitHub Actions 가 배포 직전에 실행합니다)
 """
 import csv
 import io
@@ -170,8 +174,8 @@ def load_data():
         return json.load(f)
 
 
-def write_data(data):
-    with open(JSON_PATH, "w", encoding="utf-8") as f:
+def write_data(data, path=JSON_PATH):
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
@@ -291,6 +295,21 @@ def cmd_check(strict=False):
             sys.exit(1)
     else:
         log("✓ 문제 없음")
+
+
+# ------------------------------------------------------------- 배포용 사이트
+def cmd_site(out):
+    if os.path.exists(out):
+        sys.exit("이미 있는 폴더입니다. 새 폴더 이름을 주세요: " + out)
+    data = load_data()
+    hidden = [r for r in data if r.get("visible") is False]
+    shutil.copytree(ROOT, out)
+    for r in hidden:
+        for p in local_paths(r):
+            if os.path.exists(os.path.join(out, p)):
+                os.remove(os.path.join(out, p))
+    write_data([r for r in data if r.get("visible") is not False], os.path.join(out, "data", "researchers.json"))
+    log("✓ 배포용 사이트 %s — 공개 %d명 (비공개 %d명 제외)" % (out, len(data) - len(hidden), len(hidden)))
 
 
 # ------------------------------------------------------------- 등록 양식 읽기
@@ -750,6 +769,8 @@ if __name__ == "__main__":
         cmd_sync()
     elif args[0] == "check":
         cmd_check(strict="--strict" in args)
+    elif args[0] == "site" and len(args) == 2:
+        cmd_site(args[1])
     elif args[0] == "ingest":
         msg = args[args.index("--message-file") + 1] if "--message-file" in args else None
         cmd_ingest(dry_run="--dry-run" in args, message_file=msg)
