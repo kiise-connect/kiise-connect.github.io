@@ -50,5 +50,57 @@
     "figure": null,
     "visible": true,
     "updatedAt": "2026-11-06"
+  },
+  {
+    "id": "yusung-kim",
+    "name": "김유성",
+    "nameEn": "Yusung Kim",
+    "affiliation": "성균관대학교",
+    "department": "소프트웨어학과",
+    "position": "교수",
+    "photo": "photos/yusung-kim.jpg",
+    "degree": "한국과학기술원 공학박사 (전산학)",
+    "appointedAt": "2016-03",
+    "email": "yskim525@skku.edu",
+    "homepage": "https://csi-skku.github.io",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=xGbTgpoAAAAJ&hl=ko"
+      }
+    ],
+    "message": "반갑습니다. 강화학습과 Physical AI를 연구하고 있습니다. 아이디어와 경험을 나누며 함께 연구할 기회를 기대합니다. 언제든 편하게 연락 주세요.",
+    "keywords": [
+      "강화학습",
+      "모방학습",
+      "표현학습",
+      "Physical AI"
+    ],
+    "societies": [],
+    "career": [
+      "성균관대학교 소프트웨어융합대학 교수 (2016 ~ 현재)",
+      "성균관대학교 연구교수 (2012 ~ 2015)",
+      "삼성전자 책임연구원 (2008 ~ 2011)",
+      "North Carolina State University 방문연구원 (2004~2005)"
+    ],
+    "papers": [
+      "Control First, Robustness Next: Decoupled Representation Learning for Visual RL Generalization, NeurIPS 2026.",
+      "Learning Generalizable Skill Policy with Data-Efficient Unsupervised RL, ICML 2026.",
+      "Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning. ICML 2025."
+    ],
+    "projects": [
+      "이기종 협업-피지컬AI SDF 특화 기반 모델 연구 개발, 과학기술정보통신부·NIPA, 2026.8 ~ 2030.12",
+      "AI파운데이션 모델 기반 디스플레이 공정 특화 휴머노이드 로봇 개발, 한국산업기술기획평가원, 2025.9 ~ 2028.12",
+      "지속학습을 통한 인사이트 고속 추론 연구, IITP, 2025.4 ~ 2029.12",
+      "현실 복합 작업 로봇을 위한 고지능 고범용 고적응 강화학습 기술, 한국연구재단 중견연구, 2024.5 ~ 2027.4",
+      "오픈 도메인 멀티모달 자기주도 인공지능 기술 개발, IITP, 2022.4 ~ 2026.12"
+    ],
+    "research": [
+      "스스로 학습하며 다양한 작업과 환경 변화에 유연하게 적응하는 Physical AI를 연구합니다.",
+      "강화학습·모방학습·시각–언어–행동(VLA) 모델을 기반으로, 힘 인지 기반 로봇 정밀 조작, 복합 작업 수행을 위한 계층적 의사결정, 데이터 효율적인 학습 및 일반화 기술을 개발합니다."
+    ],
+    "figure": null,
+    "visible": true,
+    "updatedAt": "2026-11-06"
   }
 ]
