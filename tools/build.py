@@ -49,7 +49,7 @@ KST = timezone(timedelta(hours=9))
 SUBMIT_EMAIL = "hankook.lee@skku.edu"
 MAIL_SUBJECT = "[연구자 프로필 등록 요청]"
 
-KEYWORDS_MIN, KEYWORDS_MAX = 3, 5   # 연구 키워드 개수
+KEYWORDS_MIN, KEYWORDS_MAX = 2, 5   # 연구 키워드 개수
 MAX_ITEMS = 5        # 대표 논문 · 연구과제 실적 · 연구 목표 및 내용 최대 개수
 MESSAGE_MAX = 120    # 인사말 글자 수
 PHOTO_SIZE = 1000    # 사진 긴 변 최대 px
