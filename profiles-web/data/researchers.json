@@ -157,5 +157,55 @@
     "figure": null,
     "visible": true,
     "updatedAt": "2026-11-10"
+  },
+  {
+    "id": "sukmin-yun",
+    "name": "윤석민",
+    "nameEn": "Sukmin Yun",
+    "affiliation": "한양대학교",
+    "department": "인공지능융합학과",
+    "position": "조교수",
+    "photo": "photos/sukmin-yun.jpg",
+    "degree": "한국과학기술원 공학박사 (인공지능)",
+    "appointedAt": "2024-03",
+    "email": "sukminyun@hanyang.ac.kr",
+    "homepage": "https://vision.hanyang.ac.kr",
+    "links": [],
+    "message": "안녕하세요, 저는 도전적이고 개척적인 연구에 관심이 많습니다. 혹시 협업에 관심이 있으시다면 편하게 연락주세요 (짧은 커피챗도 환영합니다).",
+    "keywords": [
+      "에이전틱AI",
+      "로봇AI",
+      "표현학습",
+      "멀티모달"
+    ],
+    "societies": [
+      "인공지능소사이어티"
+    ],
+    "career": [
+      "한양대학교 인공지능융합학과 조교수 (24.03~현재)",
+      "MBZUAI 박사후연구원 (23.02~24.02)"
+    ],
+    "papers": [
+      "Implicit 4D Gaussian Splatting for Fast Motion with Large Inter-Frame Displacements (ICLR 2026)",
+      "GMAIL: Generative Modality Alignment for generated Image Learning (ICML 2025)",
+      "Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs (NeurIPS 2024)",
+      "IFSeg: Image-free Semantic Segmentation via Vision-Language Model (CVPR 2023)",
+      "Patch-level Representation Learning for Self-supervised Vision Transformers (CVPR 2022)"
+    ],
+    "projects": [
+      "온디바이스 피지컬 AI 현장 적응을 위한 극저비트 이산 가중치 학습 (2026-, NRF 신진연구, 책임)",
+      "거대신경망 학습 효율화를 위한 극단적 저비트 최적화 알고리즘 연구 (2025-2026, NRF 신진연구, 책임)",
+      "AI스타펠로우십 (2026-, IITP, 참여(PL))",
+      "생성AI선도인재양성사업 (2026-, IITP, 참여)",
+      "인공지능혁신인재양성사업(AX대학원) (2026-, IITP, 참여)"
+    ],
+    "research": [
+      "AI 학습 비용 절감: 저비트 경량 모델의 높은 추론 효율성처럼 학습 효율성도 향상시키는 연구를 하고 있습니다.",
+      "Robot AI: Dynamic world 와 interactive한 robot AI을 연구중이고, agentic robotics에도 관심이 많습니다.",
+      "Multi-agent collaboration: 서로 다른 agent들이 공동의 협력을 통해 문제를 해결하는 협력 지능에 대한 연구를 하고 있습니다."
+    ],
+    "figure": null,
+    "visible": true,
+    "updatedAt": "2026-11-10"
   }
 ]
