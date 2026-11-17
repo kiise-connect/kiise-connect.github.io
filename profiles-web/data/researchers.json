@@ -251,5 +251,61 @@
     "figure": null,
     "visible": true,
     "updatedAt": "2026-11-11"
+  },
+  {
+    "id": "june-woo-kim",
+    "name": "김준우",
+    "nameEn": "June-Woo Kim",
+    "affiliation": "원광대학교",
+    "department": "전자공학과",
+    "position": "조교수",
+    "photo": "photos/june-woo-kim.jpg",
+    "degree": "경북대학교 공학박사 (인공지능)",
+    "appointedAt": "2026-03",
+    "email": "kaen2891@wku.ac.kr",
+    "homepage": "https://sites.google.com/view/spl-wku",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.co.kr/citations?user=bMI8tY0AAAAJ&hl=ko"
+      }
+    ],
+    "message": "안녕하십니까. 음성 기반 정신질환 및 퇴행성뇌질환 분야와 호흡음 기반 의료 인공지능을 연구하고 있습니다. 공동연구나 협업 등 편하게 말씀 해주세요.",
+    "keywords": [
+      "의료 인공지능",
+      "음성 신호처리",
+      "디지털 바이오마커",
+      "음성인식",
+      "표현학습"
+    ],
+    "societies": [],
+    "career": [
+      "2026.03 - 현재: 원광대학교 전자공학과 조교수",
+      "2025.09 - 2026.02: GIST AI-ACE InnoCORE 박사후연구원",
+      "2025.03 - 2025.09: 원광대학교병원 정신건강의학과 박사후연구원",
+      "2024.05 - 2024.09: Amazon, Applied Scientist Intern II (London, UK)",
+      "2024.01 - 2024.04: 네이버클라우드, 박사과정 연구인턴"
+    ],
+    "papers": [
+      "Kim, J.-W., et al. \"Automatic Speech Recognition Error Patterns for Differentiating Clinically Diagnosed Dementia, Parkinson's Disease, and Healthy Aging: Cross-Sectional Association Study.\" JMIR, 2026.",
+      "Kim, J.-W., et al. \"Deep neural network-based analysis of voice biomarkers for monitoring treatment response in adolescent major depressive disorder.\" Communications Medicine, 2026.",
+      "Kim, J.-W., et al. \"Adaptive Metadata-Guided Supervised Contrastive Learning for Domain Adaptation on Respiratory Sound Classification.\" IEEE Journal of Biomedical and Health Informatics, 2025.",
+      "Kim, J.-W., et al. \"BTS: Bridging Text and Sound Modalities for Metadata-Aided Respiratory Sound Classification.\" INTERSPEECH, 2024.",
+      "Kim, J.-W. et al. \"Stethoscope-Guided Supervised Contrastive Learning for Cross-Domain Adaptation on Respiratory Sound Classification.\" IEEE ICASSP, 2024."
+    ],
+    "projects": [
+      "2026 한국연구재단 핵심연구(기본연구A)",
+      "2026 R&D 커리어랩 펠로우십(미래 의사과학자 챌린지 트랙)"
+    ],
+    "research": [
+      "음성 기반 정신건강 및 신경퇴행성 질환 디지털 바이오마커 개발: 음성의 음향적·언어적 특성을 분석하여 우울증, 조현병, 치매 및 파킨슨병 등 정신건강 및 신경퇴행성 질환과 관련된 디지털 바이오마커를 탐색함. 음성인식 오류, 운율, 발화 속도 및 언어적 특성을 활용하여 임상 증상과 인지기능 사이의 연관성을 정량적으로 분석함.",
+      "호흡음 기반 질환 분석 및 강건한 인공지능 모델 개발: 폐음 및 호흡음 데이터를 활용하여 비정상 호흡음과 호흡기 질환 관련 음향 특성을 분석함. 의료기관, 청진 장치, 녹음 환경 및 환자 특성에 따른 데이터 분포 차이를 고려하여 다양한 임상 환경에서도 안정적인 성능을 유지할 수 있는 호흡음 분석 모델을 개발함.",
+      "멀티모달 의료 인공지능 및 표현학습 연구: 음성, 텍스트, 시선추적, 뇌신호 등 서로 다른 형태의 생체·임상 데이터를 통합하는 멀티모달 인공지능 기술을 연구함. 각 데이터가 제공하는 상호보완적 정보를 분석하고, 표현학습 및 멀티모달 융합을 통해 정신건강 및 인지기능 평가에 활용할 수 있는 분석 방법론을 개발함.",
+      "도메인 일반화 및 신뢰할 수 있는 의료 인공지능 개발: 의료 인공지능 모델의 실제 적용을 제한하는 데이터 편향, 도메인 불일치 및 학습 데이터의 이질성을 해결하기 위한 방법론을 연구함. 도메인 적응, 자기지도학습 및 대조학습 등을 활용하여 환자의 인구통계학적 특성과 데이터 수집 환경에 따른 성능 변동을 완화하는 강건한 인공지능 모델을 개발함.",
+      "개인정보 보호 및 다기관 협력 기반 의료 인공지능 연구: 의료 데이터의 민감성과 기관 간 데이터 공유 제약을 고려하여 연합학습 및 머신 언러닝 기반 개인정보 보호 인공지능 기술을 연구함. 다기관 의료 데이터의 활용 가능성을 높이면서 데이터 삭제 요청에 대응할 수 있는 학습 방법을 개발하고, 다양한 임상 코호트에서 일반화 성능을 검증하는 것을 목표로 함."
+    ],
+    "figure": null,
+    "visible": true,
+    "updatedAt": "2026-11-17"
   }
 ]
